@@ -1,0 +1,26 @@
+{
+"qa": {
+  "user": {
+    "UserSearch_BaseURL": "https://user-search.zeptonow.dev/api/",
+    "getUser": "/users/{userId}",
+    "searchUser": "/search/users",
+    "search": "v3/search"
+  },
+  "product": {
+    "baseURL_Cart": "https://api-gateway.zeptonow.dev/cart-service/api/",
+    "getProduct": "/products/{productId}",
+    "searchProduct": "/search/products",
+    "Cart_Endpoint": "v1/cart"
+
+  },
+  "order": {
+    "createOrder": "/orders",
+    "getOrder": "/orders/{orderId}"
+  }
+},
+  "uat": {
+
+  }
+
+  }
+
